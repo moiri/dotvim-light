@@ -1,0 +1,5 @@
+*.add.spl
+*.swp
+*.pyc
+.netrwhist
+view
