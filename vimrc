@@ -36,6 +36,8 @@ set listchars=tab:»\ ,extends:›,precedes:‹,nbsp:·,trail:·
 "set color scheme
 colorscheme sorcerer
 "colorscheme apprentice
+" show a vertical line at the 81st character
+let &colorcolumn=join(range(81,999),",")
 "error bells
 set noerrorbells
 set t_vb=
