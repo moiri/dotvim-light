@@ -33,11 +33,11 @@ set virtualedit=block,onemore   "config of cursor behaviour
 "show special chars for tabs, spaces etc. see listchars
 set list
 set listchars=tab:»\ ,extends:›,precedes:‹,nbsp:·,trail:·
+" show a vertical line at the 81st character
+let &colorcolumn=join(range(81,999),",")
 "set color scheme
 colorscheme sorcerer
 "colorscheme apprentice
-" show a vertical line at the 81st character
-let &colorcolumn=join(range(81,999),",")
 "error bells
 set noerrorbells
 set t_vb=
