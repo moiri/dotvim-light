@@ -112,6 +112,5 @@ hi htmlTitle     ctermfg=Cyan
 " CSS
 hi cssDefinition  ctermfg=Blue
 
-"indicate 80 char area by marking the oevrlapping text
-hi OverLength   ctermfg=Magenta ctermbg=DarkMagenta
-match OverLength /\%81v.\+/
+" show a vertical line at the 81st character
+highlight ColorColumn ctermbg=233
