@@ -18,6 +18,8 @@ set backspace=indent,eol,start  "config backspace key
 
 "View, Layout
 "===============================================================================
+set mouse=
+set ttymouse=
 " set splitbelow                  "when split put new window below
 set splitright                  "when split put new window right
 set cursorline                  "show a horizontal line at the cursor position
