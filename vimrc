@@ -20,6 +20,8 @@ set backspace=indent,eol,start  "config backspace key
 "===============================================================================
 set mouse=
 set ttymouse=
+set nobackup
+set nowritebackup
 " set splitbelow                  "when split put new window below
 set splitright                  "when split put new window right
 set cursorline                  "show a horizontal line at the cursor position
